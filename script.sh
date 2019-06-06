@@ -1,0 +1,1 @@
+java --add-exports jdk.management.agent/jdk.internal.agent=ALL-UNNAMED --add-exports jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED --add-exports java.rmi/sun.rmi.server=ALL-UNNAMED --add-exports java.rmi/sun.rmi.transport=ALL-UNNAMED -jar target/jvmtop.jar
